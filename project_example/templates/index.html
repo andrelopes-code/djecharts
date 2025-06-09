@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    {% include 'djecharts/echarts_card.html' with chart=test_chart1 group="group1" %}
+    {% include 'djecharts/echarts_card.html' with chart=test_chart2 group="group1" %}
+
+{% endblock content %}

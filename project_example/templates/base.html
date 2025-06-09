@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>App</title>
+
+    <link rel="stylesheet" href="{% static 'djecharts/css/style.css' %}">
+    <script type="module" src="{% static 'djecharts/js/main.js' %}"></script>
+
+</head>
+<body>
+    {% block content %}
+    {% endblock content %}
+</body>
+</html>
