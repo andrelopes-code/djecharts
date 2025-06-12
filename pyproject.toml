@@ -1,7 +1,7 @@
 [project]
 name = "djecharts"
 authors = [{ name = "André Lopes", email = "andrelopes.code@gmail.com" }]
-version = "0.1.1"
+version = "0.1.2"
 description = "Django Echarts"
 license = { file = "LICENSE" }
 readme = "README.md"
