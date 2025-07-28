@@ -3,7 +3,7 @@ name = "djecharts"
 authors = [{ name = "André Lopes", email = "andrelopes.code@gmail.com" }]
 version = "0.1.4"
 description = "Django Echarts"
-license = { file = "LICENSE" }
+license-files = ["LICENSE"]
 readme = "README.md"
 requires-python = ">=3.12"
 
